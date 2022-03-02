@@ -67,7 +67,7 @@
         ctx.fillText('❤️ 1,000,000 đ', 10, bn.height*590/bn.width + 180);
        
         for (const item of input) {
-            item.addEventListener('keydown',function(){
+            item.addEventListener('keyup',function(){
                 ctx.fillStyle ="#fff";
                 ctx.fillRect(0,0,600,bn.height*600 / bn.width + 200);
                 ctx.drawImage(bn, 5,5,590,bn.height*590/bn.width); 
